@@ -29,18 +29,19 @@
     <header>
         <nav>
             <div class="wrapper azul accent-1">
-                <img src="../public/img/friendc.png" class="photo sign" id="imagen-view" style="width:70px; height:65px">
-                    <a href="/" class="brand-logo animated bounce delay-2s" id="logo">Friend FINDER</a>
-                
-                <ul class="nav nav-pills nav-justified">
+                <img src="../public/img/friendc.png" class="photo sign" id="imagen-view"
+                    style="width:70px; height:65px">
+                <a href="/" class="brand-logo animated bounce delay-2s" id="logo">Friend FINDER</a>
+
+                <ul class="nav nav-pills nav-justified" id="nav-links">
                     <li class="right hide-on-med-and-down animated flipInY" id="head-nav-links">
                         <a class="nav-link" href="/survey">SURVEY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/api/friends">APIs FRIEND LIST</a>
+                        <a class="nav-link" href="/api/friends">APIs Friend List</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/codifyme/FriendFINDER">GitHub REPO</a>
+                        <a class="nav-link" href="https://github.com/codifyme/FriendFINDER">GitHub Repository</a>
                     </li>
                 </ul>
             </div>
@@ -49,37 +50,41 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col s12 z-depth-5 mainpannel">
-                    <section class='center-align'>
+                <div class="col s12 z-depth-5 mainpanel">
+                    <div id='mainpanel-content'>
                         <h1><i class="medium material-icons"></i>Friend FINDER</h1>
                         <div class="divider"></div>
-                        <h3>Answer just a few questions.</h3><br>
-                        <h4>Find your BEST friend with the greatest compatibility! </h4>
+                        <h2>Answer just a few questions.</h2>
+                        <h2>Find your BEST friend with the greatest compatibility! </h2>
 
-                        <a href='/survey'><button class="btn waves-effect waves-light" type="submit">
-                            Take Survey<i class="materila-icons">Send</i></button></a>
-                    </section>
+                        <a href='/survey'>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">
+                                Take Survey<i class="materila-icons right">Send</i>
+                            </button></a>
+                    </div>
                 </div>
-               
+
             </div>
         </div>
     </main>
-    <footer class="my-footer cyan accent-2">
+    <footer class="my-footer pink accent-2">
         <div class="container"></div>
-            <div class="row">
-                <div class="col md12 s6">
-                    <h4 class="white-text"> Friend FINDER App</h4>
-                    <p class="grey-text text-lighten-4">"Your time is valuable to us. Thank you for taking the brief survey. Your responses will be keep private for training purposes."<a href>Friend-FINDER</a></p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="/api/friends">API Friend List</a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://github.com/codifyme/FriendFINDER">GitHub Repo</a></li>
-                    </ul>
-                </div>
+        <div class="row">
+            <div class="col l6 s12">
+                <h4 class="white-text">Friend FINDER</h4>
+                <p class="grey-text text-lighten-4">"Your time is valuable to us. Thank you for taking the brief survey.
+                    Your responses will be keep private for training purposes."</p>
             </div>
-            <div class="copyright">@2019 friendFINDER Copyright</div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="/api/friends">API Friend List</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/codifyme/FriendFINDER">GitHub
+                            Repo</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">@2019 friendFINDER Copyright</div>
         </div>
     </footer>
 </body>
