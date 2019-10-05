@@ -296,7 +296,16 @@ i.right {
     direction: ltr;
 }
 
-/**** Container *********/
+/**** Footer & Container *********/
+.blue-accent-2 {
+    background-color: blueviolet !important;
+}
+
+footer.page-footer {
+    padding-top: 20px;
+}
+
+
 @media only screen and (min-width: 601px) {
     .container {
         width: 85%;
@@ -306,7 +315,6 @@ i.right {
 .container {
     margin: 0 auto;
     max-width: 1280px;
-    width: 90%;
 }
 
 @media only screen and (min-width: 993px) {
@@ -321,9 +329,9 @@ i.right {
 }
 
 .row {
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -333,11 +341,11 @@ i.right {
     }
 }
 
-.row:after {
+/*.row:after{
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 @media only screen and (min-width: 993px) {
     .row .col.l6 {
@@ -360,12 +368,11 @@ h5 {
     line-height: 110%;
     margin: .82rem 0 .656rem 0;
     display: block;
-    font-size: 0.83em;
     margin-block-start: 1.67em;
     margin-block-end: 1.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .grey-text.text-lighten-4 {
@@ -405,6 +412,7 @@ h5 {
     font-size: 1.64rem;
     line-height: 110%;
     margin: .82rem 0 .656rem 0;
+    font-weight: 400;
 }
 
 ul:not(.browser-default) {
@@ -415,7 +423,6 @@ ul:not(.browser-default) {
 ul {
     list-style: none;
     display: block;
-    list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -430,16 +437,22 @@ ul {
 a {
     text-decoration: none;
     background-color: transparent;
+    margin: 0;
 }
 
+.grey-text.text-lighten-4 {
+    color: #f5f5f5 !important;
+}
 
+.right {
+    float: right !important;
+}
 
-
-footer .footer-copyright {
+footer.page-footer .footer-copyright {
     font-weight: 300;
 }
 
-footer.my-footer .footer-copyright {
+html footer.my-footer .footer-copyright {
     overflow: hidden;
     min-height: 50px;
     display: -webkit-flex;
@@ -453,11 +466,23 @@ footer.my-footer .footer-copyright {
     background-color: rgba(51, 51, 51, 0.08);
 }
 
+
 footer.my-footer {
     padding-top: 20px;
     background-color: lightseagreen;
 }
 
-.main-copyright {
+/*.main-copyright {
     align-items: center;
+}*/
+.hiddendiv {
+    display: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding-top: 1.2rem;
+}
+
+body {
+    line-height: 1;
 }
