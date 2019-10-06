@@ -1,7 +1,7 @@
 FriendFINDER App
 =================
 
-##Description
+Description
 
 
 Friend Finder is a dating App based on user's responses to a ten question survey. The user response to 
@@ -10,20 +10,20 @@ record closest to the current user's responses is found and returned. The closed
 
 >The App is meant to simulate a simple dating app. Friend Finder application is implemented using a ***Node.js*** >>>>(https://nodejs.org/en/and )***Express*** server on the back end and the Materialize CSS framework on the front end.
 
-##Demo
+Demo
 =======
 Friend Finder is deployed to Heroku. Please check it out **[here](https://coolfriend.herokuapp.com/)**.
 
 
 
-##Installation
+Installation
 ==============
 To install the app follow the instruction below:
 > git clone git@github.com:codifyme/friendFinder.git
 > cd friendFinder
 > npm install
 
-##Running Locally
+>Running Locally
 To run the app locally and access it in your brower, first set the ***PORT*** environment variable to the value of your choices. An example is show below.
 
 >export PORT=3000
