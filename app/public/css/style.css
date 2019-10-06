@@ -466,6 +466,9 @@ html footer.my-footer .footer-copyright {
     background-color: rgba(51, 51, 51, 0.08);
 }
 
+.grey-text {
+    color: #fff;
+}
 
 footer.my-footer {
     padding-top: 20px;
