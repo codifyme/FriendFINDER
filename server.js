@@ -9,7 +9,7 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 //Setting up the Express app to handle data parsing
-app.use(express.static(path.join(_dirname, './app/public')));
+app.use(express.static(path.join(__dirname, './app/public')));
 
 //Add middleware for parsing incoming request username
 app.use(bodyParser.json());
