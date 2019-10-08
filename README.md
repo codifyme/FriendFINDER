@@ -34,7 +34,7 @@ After the PORT envirionment variable has been set, run the Node.js application w
 
 Screen Shot
 -------------
-![terminal FriendFinder site](images/friendFinderSS.png)
+![terminal FriendFinder site](app/public/img/friendFinderSS.png)
 
 ## Built With
 
