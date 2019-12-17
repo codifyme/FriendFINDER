@@ -1,4 +1,4 @@
-//Pull in Dependencies required
+// Pull in Dependencies required
 
 const path = require('path');
 
@@ -6,7 +6,7 @@ const path = require('path');
 
 const friends = require('../data/friends.js');
 
-//Export two APIs routes
+// Export two APIs routes
 
 module.exports = function(app) {
   //Display a JSON of all possible friends
@@ -14,7 +14,7 @@ module.exports = function(app) {
     res.json(friends);
   });
 
-  //Incoming survey entries
+  //  Incoming survey entries
   app.post('/api/friends', function(req, res) {
     //User input object
     const userInput = req.body;
@@ -22,12 +22,12 @@ module.exports = function(app) {
     // Compute best friend match
     const matchName = '';
     const matchImage = '';
-    //Initial value comparison
+    // Initial value comparison
     var totalDifference = 10000;
-    //Compatibility Logic
+    // Compatibility Logic
     // check all your system friends list
     for (const i = 0; i < friends.length; i++) {
-      //calculate differences for each question
+      // calculate differences for each question
       const diff = 0;
       for (const j = 0; j < userResponses.length; j++) {
         diff += Math.abs(friends[i].scores[j] - userResponses[j]);
