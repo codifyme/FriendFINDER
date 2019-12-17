@@ -15,10 +15,10 @@ header>nav {
 
 @media screen and (min-width: 600px) {
 
-    .nav-wrapper .img,
+    /* .nav-wrapper .img,
     a:not(:first-child) {
         display: none;
-    }
+    } */
 
     .nav-justified {
         float: right;
@@ -46,14 +46,14 @@ nav .nav-wrapper {
 }
 
 /*** Main Container ****/
-/*@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 990px) {
 
     .nav-wrapper.responsive,
         {
         position: relative;
         width: 70%;
     }
-}*/
+}
 
 /** Logo - Brand logo ***/
 #logo {
@@ -491,23 +491,3 @@ body {
     line-height: 1;
 }
 
-@media(min-width:451px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-@media(min-width:759px) {
-
-    body {
-        font-size: 16px;
-    }
-}
-
-@media(min-width:1025px) {
-
-    body,
-    .nav-justified {
-        font-size: 18px;
-    }
-}
