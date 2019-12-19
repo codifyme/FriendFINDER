@@ -1,35 +1,35 @@
 // Pull in Dependencies required
 
-const path = require('path');
+var path = require('path');
 
 //Import list of friends entries
 
-const friends = require('../data/friends.js');
+var friends = require('../data/friends.js');
 
 // Export two APIs routes
 
 module.exports = function(app) {
   //Display a JSON of all possible friends
-  app.get('/api/friends', function(req, res) {
+  app.get('/api/friends', function(_req, res) {
     res.json(friends);
   });
 
   //  Incoming survey entries
   app.post('/api/friends', function(req, res) {
     //User input object
-    const userInput = req.body;
-    const userResponses = userInput.scores;
+    var userInput = req.body;
+    var userResponses = userInput.scores;
     // Compute best friend match
-    const matchName = '';
-    const matchImage = '';
+    var matchName = '';
+    var matchImage = '';
     // Initial value comparison
     var totalDifference = 10000;
     // Compatibility Logic
     // check all your system friends list
-    for (const i = 0; i < friends.length; i++) {
+    for (var i = 0; i < friends.length; i++) {
       // calculate differences for each question
-      const diff = 0;
-      for (const j = 0; j < userResponses.length; j++) {
+      var diff = 0;
+      for (var j = 0; j < userResponses.length; j++) {
         diff += Math.abs(friends[i].scores[j] - userResponses[j]);
       }
 

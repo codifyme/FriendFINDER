@@ -25,11 +25,15 @@ header>nav {
         display: block;
         position: relative;
         color: coral;
-
     }
 }
 
 .azul accent-1 {
+    background-color: #00CED1;
+
+}
+
+.blue-accent-2 accent-2 {
     background-color: #00CED1;
 
 }
@@ -48,8 +52,7 @@ nav .nav-wrapper {
 /*** Main Container ****/
 @media only screen and (min-width: 990px) {
 
-    .nav-wrapper.responsive,
-        {
+    .nav-wrapper.responsive {
         position: relative;
         width: 70%;
     }
@@ -299,7 +302,7 @@ i.right {
 
 /**** Footer & Container *********/
 .blue-accent-2 {
-    background-color: blueviolet !important;
+    background-color: lightseagreen !important;
 }
 
 footer.page-footer {
@@ -490,4 +493,3 @@ footer.my-footer {
 body {
     line-height: 1;
 }
-

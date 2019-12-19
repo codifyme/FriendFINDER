@@ -1,54 +1,61 @@
-// Data structure we are going to store friends finder data
+// Data structure that will store the friends data
 var friendsArray = [
   {
-    name: 'siko',
-    photo: 'https://images.app.goo.gl/aF37mfRAcXYFTKw76',
-    scores: ['1', '3', '6', '8', '2', '4', '7', '2', '1', '6']
+    name: 'Scooter',
+    photo:
+      'http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-15.jpg',
+    scores: ['1', '5', '5', '1', '5', '5', '1', '1', '1', '5']
   },
   {
-    name: 'mota',
-    photo: 'https://images.app.goo.gl/n45pbfDteaKdDU5bA',
-    scores: ['1', '2', '6', '8', '2', '9', '7', '2', '1', '6']
+    name: 'Fluffy',
+    photo: 'https://i.ytimg.com/vi/mRf3-JkwqfU/hqdefault.jpg',
+    scores: ['2', '4', '1', '1', '1', '1', '1', '2', '1', '5']
   },
   {
-    name: 'mia',
-    photo: 'https://images.app.goo.gl/W329p5gqTw2JjJy66',
-    scores: ['8', '3', '6', '8', '2', '1', '7', '1', '1', '6']
+    name: 'Spencer',
+    photo:
+      'http://cdn3-www.cattime.com/assets/uploads/2011/08/best-kitten-names-1.jpg',
+    scores: ['4', '3', '5', '1', '1', '5', '5', '1', '1', '1']
   },
   {
-    name: 'loka',
-    photo: 'https://images.app.goo.gl/7Stj14PP8kxmb4oK8',
-    scores: ['9', '3', '6', '8', '2', '4', '7', '2', '1', '6']
+    name: 'Zackariah',
+    photo:
+      'https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg',
+    scores: ['5', '1', '2', '1', '3', '4', '1', '3', '3', '4']
   },
   {
-    name: 'thor',
-    photo: 'https://images.app.goo.gl/YTWrataUe3umQUTp8',
-    scores: ['4', '1', '1', '8', '2', '4', '7', '2', '1', '6']
+    name: 'Cloe',
+    photo:
+      'http://4.bp.blogspot.com/-HTvSYzA-pO4/UgQb4Zh_u0I/AAAAAAAAEuI/XwhtogT_1tA/s1600/3+cute2.jpg',
+    scores: ['1', '1', '5', '5', '5', '5', '5', '5', '5', '1']
   },
   {
-    name: 'lasi',
-    photo: 'https://images.app.goo.gl/TnhGfcBg5awW2vPR7',
-    scores: ['3', '2', '2', '8', '2', '4', '7', '2', '1', '6']
+    name: 'Mrs. Piggy',
+    photo:
+      'https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg',
+    scores: ['1', '1', '5', '1', '3', '2', '5', '1', '1', '5']
   },
   {
-    name: 'comanche',
-    photo: 'https://images.app.goo.gl/LiVqbW4Pj3WaW6VU8',
-    scores: ['7', '3', '1', '8', '2', '4', '7', '1', '1', '6']
+    name: 'Beyo',
+    photo:
+      'http://cdn3-www.cattime.com/assets/uploads/2011/08/best-kitten-names-1.jpg',
+    scores: ['5', '4', '4', '2', '4', '4', '3', '2', '3', '3']
   },
   {
-    name: 'lisa',
-    photo: 'https://images.app.goo.gl/1hqB89rM1UauypBZ9',
-    scores: ['5', '3', '6', '8', '6', '8', '7', '2', '1', '6']
+    name: 'Ade',
+    photo: 'https://i.ytimg.com/vi/mRf3-JkwqfU/hqdefault.jpg',
+    scores: ['5', '2', '3', '1', '5', '1', '3', '1', '1', '5']
   },
   {
-    name: 'rocotico',
-    photo: 'https://images.app.goo.gl/Lb8njxGhp1DdrLRC9',
-    scores: ['6', '3', '6', '6', '2', '4', '7', '2', '1', '6']
+    name: 'Kermita',
+    photo:
+      'https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg',
+    scores: ['5', '5', '5', '5', '5', '5', '5', '5', '5', '5']
   },
   {
-    name: 'suler',
-    photo: 'https://images.app.goo.gl/sKypT8pX75SCLQ498',
-    scores: ['2', '2', '6', '8', '2', '4', '7', '2', '1', '6']
+    name: 'Elamo',
+    photo: 'https://i.ytimg.com/vi/mRf3-JkwqfU/hqdefault.jpg',
+    scores: ['1', '8', '1', '1', '1', '1', '1', '1', '1', '1']
   }
 ];
 
